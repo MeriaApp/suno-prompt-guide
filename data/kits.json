@@ -1,0 +1,541 @@
+{
+  "updated": "2026-11-01",
+  "license": "CC-BY-4.0",
+  "source": "https://github.com/MeriaApp/suno-prompt-guide",
+  "genre_kits": [
+    {
+      "genre": "Hip-hop and rap",
+      "name": "Late-night melodic trap",
+      "style": "Melodic trap, 140 BPM in half-time, a smooth male tenor with light pitch correction, sung hooks and rapped verses that sit just behind the beat, gliding 808 bass under dark atmospheric synth pads, crisp rolling hi-hats with short triplet runs, a filtered piano loop in the intro, wide reverb on the hook and a close dry verse vocal, moody and reflective",
+      "exclude": "live drums, acoustic guitar, choir, cheerful pop",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "filtered piano loop, 808 enters on the last bar"
+        },
+        {
+          "section": "Verse 1",
+          "direction": "rapped, close and dry, sparse hi-hats"
+        },
+        {
+          "section": "Hook",
+          "direction": "sung, wide reverb, full 808 and hats"
+        },
+        {
+          "section": "Verse 2",
+          "direction": "rapped, a little more urgent, triplet hats"
+        },
+        {
+          "section": "Hook",
+          "direction": "sung, same as before"
+        },
+        {
+          "section": "Bridge",
+          "direction": "half-sung, drums drop out, pads only"
+        },
+        {
+          "section": "Hook",
+          "direction": "sung, everything back in"
+        },
+        {
+          "section": "Outro",
+          "direction": "piano loop alone, fades"
+        }
+      ]
+    },
+    {
+      "genre": "Hip-hop and rap",
+      "name": "90s boom bap storytelling",
+      "style": "Mid-90s East Coast boom bap, 92 BPM, a confident male rapper with a conversational storytelling flow and clear diction, dusty sampled jazz piano and an upright bass loop, hard swung drums with a crunchy snare, vinyl crackle, scratched hook phrases from a turntable, mono-leaning mix with the vocal up front, nostalgic and gritty",
+      "exclude": "autotune, 808 slides, synth pads, trap hi-hats",
+      "layout": []
+    },
+    {
+      "genre": "Hip-hop and rap",
+      "name": "Bright party rap",
+      "style": "Upbeat West Coast party rap, 98 BPM, a playful female rapper with a bouncy, rhythmic flow and call-and-response ad-libs, rubbery synth bass and a talk-box style lead, handclaps on two and four, a whistled melody in the hook, group chant on the chorus, bright polished mix, sunny and confident",
+      "exclude": "dark pads, distorted 808, slow tempo",
+      "layout": []
+    },
+    {
+      "genre": "Electronic and dance",
+      "name": "Melodic house with a vocal chop",
+      "style": "Melodic house, 122 BPM, warm four-on-the-floor kick and rolling sub bass, a plucked synth arpeggio that slowly opens its filter, airy pads, a chopped female vocal used as an instrument with one short sung line in the breakdown, long builds with a snare roll and riser into each drop, spacious club mix, euphoric and warm",
+      "exclude": "rap verses, acoustic guitar, dubstep wobble",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "kick and hats, filter closed"
+        },
+        {
+          "section": "Build",
+          "direction": "arpeggio opens, snare roll, riser"
+        },
+        {
+          "section": "Drop",
+          "direction": "full bass and lead, vocal chop as hook"
+        },
+        {
+          "section": "Breakdown",
+          "direction": "pads only, one sung line, no kick"
+        },
+        {
+          "section": "Build",
+          "direction": "longer this time, riser and noise sweep"
+        },
+        {
+          "section": "Drop",
+          "direction": "everything in, the biggest moment"
+        },
+        {
+          "section": "Outro",
+          "direction": "kick and bass, filter closes"
+        }
+      ]
+    },
+    {
+      "genre": "Electronic and dance",
+      "name": "Liquid drum and bass",
+      "style": "Liquid drum and bass, 174 BPM, a soft breathy female vocal floating over fast rolling breakbeats, deep smooth reese bass, lush Rhodes chords and string pads, rain-like texture in the intro, the vocal sung in long held notes against the fast drums, clean wide mix, melancholy and hopeful",
+      "exclude": "heavy distortion, rap, four-on-the-floor kick",
+      "layout": []
+    },
+    {
+      "genre": "Electronic and dance",
+      "name": "Dark warehouse techno",
+      "style": "Dark warehouse techno, 132 BPM, instrumental, a pounding distorted kick and rumbling sub, metallic percussion and an off-beat open hat, a hypnotic one-note synth stab that mutates slowly, industrial noise sweeps, long tension with a stripped breakdown before the return, raw and relentless",
+      "exclude": "vocals, singing, piano, bright pop synths",
+      "layout": []
+    },
+    {
+      "genre": "Pop",
+      "name": "Bedroom pop heartbreak",
+      "style": "Bedroom pop, 96 BPM, an intimate female vocal sung soft and close in the verses that opens up into a doubled chorus, clean electric guitar with a little chorus effect, soft programmed drums, warm bass, a lo-fi tape texture on the whole mix, small harmonies on the last chorus line, bittersweet and catchy",
+      "exclude": "belting, EDM drop, rap verse",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "guitar alone, tape hiss"
+        },
+        {
+          "section": "Verse 1",
+          "direction": "close soft vocal, drums enter halfway"
+        },
+        {
+          "section": "Pre-Chorus",
+          "direction": "bass climbs, vocal lifts"
+        },
+        {
+          "section": "Chorus",
+          "direction": "doubled vocal, full drums, the hook line twice"
+        },
+        {
+          "section": "Verse 2",
+          "direction": "same feel, one new guitar figure"
+        },
+        {
+          "section": "Chorus",
+          "direction": "doubled, harmonies on the last line"
+        },
+        {
+          "section": "Bridge",
+          "direction": "drums out, vocal and guitar only"
+        },
+        {
+          "section": "Chorus",
+          "direction": "biggest, then stops on the last word"
+        }
+      ]
+    },
+    {
+      "genre": "Pop",
+      "name": "80s synth-pop anthem",
+      "style": "Mid-80s synth-pop, 118 BPM, a bright male tenor with an earnest, soaring chorus, gated reverb snare, punchy drum machine, analog synth bass in eighth notes, shimmering poly-synth chords and a memorable lead synth riff, a short saxophone solo after the second chorus, big glossy mix, nostalgic and euphoric",
+      "exclude": "trap hi-hats, autotune, modern 808",
+      "layout": []
+    },
+    {
+      "genre": "Pop",
+      "name": "Acoustic pop love song",
+      "style": "Acoustic pop ballad, 72 BPM, a warm male vocal sung gently with a natural, unpolished tone, fingerpicked acoustic guitar carrying the song, soft piano entering in the second verse, light strings in the final chorus, close intimate recording with a short room reverb, tender and hopeful",
+      "exclude": "drums in the first verse, electric guitar, synths",
+      "layout": []
+    },
+    {
+      "genre": "Rock, punk and metal",
+      "name": "2000s pop-punk",
+      "style": "2000s pop-punk, 168 BPM, a bright male vocal with a slight nasal snarl and gang-shout backing vocals on the chorus, two palm-muted distorted guitars panned wide, driving bass following the root, fast tight punk drums with a double-time chorus, short stop before the last chorus, loud and energetic, defiant and fun",
+      "exclude": "synths, slow ballad, growled vocals",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "one guitar, then the band crashes in"
+        },
+        {
+          "section": "Verse 1",
+          "direction": "palm-muted, fast, vocal up front"
+        },
+        {
+          "section": "Pre-Chorus",
+          "direction": "drums build, guitars open up"
+        },
+        {
+          "section": "Chorus",
+          "direction": "double-time, gang shouts"
+        },
+        {
+          "section": "Verse 2",
+          "direction": "same drive, a little louder"
+        },
+        {
+          "section": "Chorus",
+          "direction": "gang shouts"
+        },
+        {
+          "section": "Bridge",
+          "direction": "half-time breakdown, bass and voice"
+        },
+        {
+          "section": "Chorus",
+          "direction": "stop for one beat, then the last chorus"
+        }
+      ]
+    },
+    {
+      "genre": "Rock, punk and metal",
+      "name": "Grunge slow burn",
+      "style": "Early-90s grunge, 84 BPM, a raspy, weary male baritone that goes from mumbled verses to a strained, shouted chorus, a clean chorus-effect guitar in the verses and thick fuzz guitars in the chorus, heavy loose drums with a big room sound, distorted bass, raw live-band mix, brooding and heavy",
+      "exclude": "polished pop production, synths, falsetto",
+      "layout": []
+    },
+    {
+      "genre": "Rock, punk and metal",
+      "name": "Melodic metalcore",
+      "style": "Melodic metalcore, 150 BPM, harsh screamed verses and a soaring clean male chorus, down-tuned chugging guitars with a melodic lead line, fast double-kick drums with blast beats in the bridge, a heavy breakdown with half-time drums before the final chorus, tight modern metal production, intense and cathartic",
+      "exclude": "acoustic guitar, pop drums, rap",
+      "layout": []
+    },
+    {
+      "genre": "R&B and soul",
+      "name": "Late-90s slow jam",
+      "style": "Late-90s R&B slow jam, 68 BPM, a smooth female lead with breathy verses and controlled runs on the last word of a line, layered harmonies on the chorus, Rhodes electric piano and a warm round bass, programmed drums with a soft finger-snap backbeat, close dry vocal with a little plate reverb on the harmonies, intimate and late-night",
+      "exclude": "trap hi-hats, distorted bass, rap verse",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "Rhodes alone, a hummed line"
+        },
+        {
+          "section": "Verse 1",
+          "direction": "breathy, behind the beat"
+        },
+        {
+          "section": "Pre-Chorus",
+          "direction": "harmonies enter softly"
+        },
+        {
+          "section": "Chorus",
+          "direction": "layered harmonies, runs on the last word"
+        },
+        {
+          "section": "Verse 2",
+          "direction": "same feel, a little more open"
+        },
+        {
+          "section": "Chorus",
+          "direction": "layered harmonies"
+        },
+        {
+          "section": "Bridge",
+          "direction": "key lift, the lead alone with Rhodes"
+        },
+        {
+          "section": "Chorus",
+          "direction": "ad-libs over the harmonies"
+        },
+        {
+          "section": "Outro",
+          "direction": "Rhodes and a hummed line"
+        }
+      ]
+    },
+    {
+      "genre": "R&B and soul",
+      "name": "Neo-soul groove",
+      "style": "Neo-soul, 86 BPM, a warm male vocal with a relaxed, conversational delivery and falsetto lifts, live drums played loose and behind the beat, muted electric guitar licks, round upright-style bass, Rhodes chords with extended jazz harmony, a short horn line in the chorus, warm analog tape mix, easy and joyful",
+      "exclude": "autotune, EDM synths, 808",
+      "layout": []
+    },
+    {
+      "genre": "R&B and soul",
+      "name": "Modern alt R&B",
+      "style": "Modern alternative R&B, 78 BPM, a hushed male vocal with falsetto in the hook and pitched-down vocal layers as texture, sparse minimal beat with a deep sub bass and crisp snaps, hazy reverb-washed synth pads, a short reversed guitar phrase between lines, lots of space in the mix, moody and cool",
+      "exclude": "big pop chorus, live band, belting",
+      "layout": []
+    },
+    {
+      "genre": "Country, folk and Americana",
+      "name": "Modern country story song",
+      "style": "Modern country, 92 BPM, a warm male baritone with a slight Southern drawl and plain-spoken storytelling delivery, acoustic guitar strumming, pedal steel answering the vocal lines, warm bass and a steady drum groove with a rimshot verse and full kit chorus, a short fiddle fill before the bridge, clean Nashville production, nostalgic and proud",
+      "exclude": "rap, synths, autotune",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "acoustic and pedal steel"
+        },
+        {
+          "section": "Verse 1",
+          "direction": "rimshot groove, the story starts"
+        },
+        {
+          "section": "Chorus",
+          "direction": "full kit, the title line"
+        },
+        {
+          "section": "Verse 2",
+          "direction": "the story moves forward"
+        },
+        {
+          "section": "Chorus",
+          "direction": "full kit"
+        },
+        {
+          "section": "Bridge",
+          "direction": "fiddle fill, then drums drop out"
+        },
+        {
+          "section": "Chorus",
+          "direction": "last time, with a changed final line"
+        }
+      ]
+    },
+    {
+      "genre": "Country, folk and Americana",
+      "name": "Front-porch folk",
+      "style": "Intimate indie folk, 80 BPM, a soft female vocal close to the microphone with a gentle harmony from a second voice in the chorus, fingerpicked acoustic guitar, a light banjo roll in the second verse, upright bass, brushed snare entering late, a recording that sounds like one room, wistful and calm",
+      "exclude": "electric guitar, heavy drums, polished pop",
+      "layout": []
+    },
+    {
+      "genre": "Country, folk and Americana",
+      "name": "Desert Americana",
+      "style": "Dusty Americana, 104 BPM, a gravelly male vocal with a laid-back half-spoken verse and a fuller chorus, twangy baritone electric guitar with tremolo, acoustic rhythm guitar, a loose shuffling drum groove, harmonica in the intro and the outro, wide open reverb like an empty desert, restless and free",
+      "exclude": "synths, pop drums, rap",
+      "layout": []
+    },
+    {
+      "genre": "Indie and alternative",
+      "name": "Dream pop haze",
+      "style": "Dream pop, 90 BPM, a breathy female vocal sitting inside the mix with long reverb tails, shimmering chorus-drenched electric guitars, a steady simple drum machine pulse, warm melodic bass, swelling synth pads, soft vocal harmonies an octave up in the chorus, washed-out lo-fi warmth, hazy and nostalgic",
+      "exclude": "rap, sharp EDM drums, belting",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "guitar shimmer and pads"
+        },
+        {
+          "section": "Verse 1",
+          "direction": "voice low in the mix, pulse beat"
+        },
+        {
+          "section": "Chorus",
+          "direction": "octave harmonies, pads swell"
+        },
+        {
+          "section": "Verse 2",
+          "direction": "a second guitar enters"
+        },
+        {
+          "section": "Chorus",
+          "direction": "octave harmonies"
+        },
+        {
+          "section": "Instrumental",
+          "direction": "guitar melody over pads"
+        },
+        {
+          "section": "Chorus",
+          "direction": "fullest, then fades into reverb"
+        }
+      ]
+    },
+    {
+      "genre": "Indie and alternative",
+      "name": "Garage indie rock",
+      "style": "2000s garage indie rock, 132 BPM, a cool, slightly detached male vocal with a sharp shouted chorus, two scrappy overdriven guitars with angular riffs, a tight driving bass, fast dance-punk drums with an open hi-hat, handclaps in the chorus, raw and close live-room sound, restless and fun",
+      "exclude": "synth pads, ballad, autotune",
+      "layout": []
+    },
+    {
+      "genre": "Indie and alternative",
+      "name": "Sad indie piano",
+      "style": "Sparse indie ballad, 70 BPM, a fragile male vocal sung quietly with audible breath, felt piano recorded close with the pedal noise left in, soft cello entering in the second verse, a distant reverb guitar swell in the bridge, drums held back until the last chorus and then only a soft kick, tender and devastating",
+      "exclude": "heavy drums, synths, upbeat tempo",
+      "layout": []
+    },
+    {
+      "genre": "Cinematic and orchestral",
+      "name": "Epic trailer build",
+      "style": "Epic cinematic trailer music, 90 BPM, instrumental, a lone piano motif that grows into full orchestra, low brass swells, driving staccato strings, massive taiko and orchestral percussion hits, a wordless choir on the final climax, long rising tension with a silent beat before the last hit, huge wide hall reverb, heroic and powerful",
+      "exclude": "pop drums, rap, sung lyrics",
+      "layout": [
+        {
+          "section": "Intro",
+          "direction": "lone piano motif"
+        },
+        {
+          "section": "Build",
+          "direction": "strings ostinato, low brass"
+        },
+        {
+          "section": "Build",
+          "direction": "percussion enters, tension rises"
+        },
+        {
+          "section": "Drop",
+          "direction": "full orchestra and choir, the motif in brass"
+        },
+        {
+          "section": "Breakdown",
+          "direction": "one silent beat"
+        },
+        {
+          "section": "Outro",
+          "direction": "final hit, piano motif returns alone"
+        }
+      ]
+    },
+    {
+      "genre": "Cinematic and orchestral",
+      "name": "Fantasy village theme",
+      "style": "Gentle fantasy orchestral theme, 76 BPM, instrumental, a solo flute melody over plucked harp and pizzicato strings, warm French horn answering phrases, light hand percussion, a soft string swell in the middle, bright and open hall sound, peaceful and adventurous",
+      "exclude": "drum kit, electric guitar, vocals",
+      "layout": []
+    },
+    {
+      "genre": "Cinematic and orchestral",
+      "name": "Dark thriller score",
+      "style": "Dark thriller score, 120 BPM, instrumental, a pulsing synth bass ostinato under tense string tremolos, ticking percussion and sharp metallic hits, brass stabs on the downbeats, a rising dissonant string line, hybrid orchestral and electronic production, urgent and suspenseful",
+      "exclude": "vocals, melodic pop, acoustic guitar",
+      "layout": []
+    }
+  ],
+  "use_case_kits": [
+    {
+      "name": "YouTube background",
+      "style": "Calm lo-fi hip-hop, 78 BPM, instrumental, dusty jazz piano chords, soft swung drums with a gentle snare, warm bass, vinyl crackle and light tape wobble, the same steady groove from start to end, relaxed and focused",
+      "exclude": "vocals, singing, loud drops, sudden changes"
+    },
+    {
+      "name": "Podcast intro, 15 seconds",
+      "style": "Short upbeat podcast intro, 110 BPM, instrumental, punchy funk bass and tight drums, bright electric guitar stabs, a quick brass hit at the end, clean modern mix, confident and friendly",
+      "exclude": "vocals, long intro, slow fade"
+    },
+    {
+      "name": "Wedding first dance",
+      "style": "Romantic soul ballad, 70 BPM, a warm male and female duet trading verses and singing the last chorus together, piano and soft strings, gentle live drums entering in the second verse, warm close recording, tender and joyful",
+      "exclude": "rap, EDM, heavy guitar"
+    },
+    {
+      "name": "Short video hook",
+      "style": "Catchy dance-pop, 124 BPM, a bright female vocal with a short chanted hook in the first five seconds, punchy kick and clap, bouncy synth bass, a playful vocal chop riff, loud polished mix, fun and confident",
+      "exclude": "slow intro, ballad, long instrumental start"
+    },
+    {
+      "name": "Study beat",
+      "style": "Ambient study music, 70 BPM, instrumental, soft felt piano and warm synth pads, a gentle low-volume pulse, distant rain texture, slow evolving chords, calm and steady",
+      "exclude": "vocals, drums, sudden changes, bright leads"
+    },
+    {
+      "name": "Game level loop",
+      "style": "Upbeat chiptune game music, 140 BPM, instrumental, bright square-wave lead melody, bouncy triangle bass, crunchy 8-bit drums, a short arpeggio fill every four bars, loops cleanly, playful and adventurous",
+      "exclude": "vocals, orchestra, realistic drums"
+    }
+  ],
+  "voice_lines": [
+    {
+      "group": "Low male",
+      "name": "Deep baritone crooner",
+      "voice": "a deep, smooth male baritone crooning slowly, a lot of air on the low notes, close and warm",
+      "style": "Smoky jazz ballad, 66 BPM, a deep, smooth male baritone crooning slowly, a lot of air on the low notes, close and warm, brushed drums, upright bass, soft piano chords, a tenor sax answering each line, late-night club room sound, intimate and wistful",
+      "exclude": "autotune, falsetto, modern pop drums"
+    },
+    {
+      "group": "Low male",
+      "name": "Gravelly storyteller",
+      "voice": "a gravelly, weathered male baritone, half-spoken in the verses and fuller in the chorus, unhurried",
+      "style": "Dusty Americana, 92 BPM, a gravelly, weathered male baritone, half-spoken in the verses and fuller in the chorus, unhurried, acoustic guitar, pedal steel, a loose shuffle on the drums, warm bass, wide open room reverb, reflective and tired",
+      "exclude": "autotune, pop polish, synths"
+    },
+    {
+      "group": "High male",
+      "name": "Falsetto R&B lead",
+      "voice": "a soft male tenor that floats up into falsetto on the hook, breathy and close, small runs on the last word",
+      "style": "Modern R&B, 74 BPM, a soft male tenor that floats up into falsetto on the hook, breathy and close, small runs on the last word, warm sub bass, snaps and a minimal beat, hazy synth pads, a reversed guitar phrase between lines, spacious and moody",
+      "exclude": "belting, rap verse, rock guitar"
+    },
+    {
+      "group": "High male",
+      "name": "Raspy rock tenor",
+      "voice": "a raspy male tenor that strains and shouts on the chorus, ahead of the beat, doubled for the chorus",
+      "style": "Arena rock, 128 BPM, a raspy male tenor that strains and shouts on the chorus, ahead of the beat, doubled for the chorus, two crunchy overdriven guitars, driving bass, big live drums with a room sound, gang vocals on the last chorus, defiant and loud",
+      "exclude": "synth pads, falsetto, autotune"
+    },
+    {
+      "group": "Low and mid female",
+      "name": "Smoky alto",
+      "voice": "a smoky, low female alto, unhurried and behind the beat, close-miked with a short room reverb",
+      "style": "Slow electric blues, 70 BPM, a smoky, low female alto, unhurried and behind the beat, close-miked with a short room reverb, a clean electric guitar with tremolo answering her lines, organ pads, upright bass, brushed drums, after-hours and sultry",
+      "exclude": "autotune, bright pop production, rap"
+    },
+    {
+      "group": "Low and mid female",
+      "name": "Conversational indie alto",
+      "voice": "a plain, conversational female alto, almost spoken in the verses, doubled softly in the chorus, dry and close",
+      "style": "Bedroom indie pop, 98 BPM, a plain, conversational female alto, almost spoken in the verses, doubled softly in the chorus, dry and close, clean chorus-effect guitar, soft programmed drums, warm bass, a lo-fi tape texture, wry and catchy",
+      "exclude": "belting, EDM drop, choir"
+    },
+    {
+      "group": "High female",
+      "name": "Belting pop soprano",
+      "voice": "a powerful female soprano, soft and close in the verses, opening into a full belt on the last chorus",
+      "style": "Big pop ballad, 72 BPM, a powerful female soprano, soft and close in the verses, opening into a full belt on the last chorus, grand piano, swelling strings, a key change before the final chorus, live drums entering in the second verse, polished wide mix, triumphant and emotional",
+      "exclude": "rap, autotune, lo-fi texture"
+    },
+    {
+      "group": "High female",
+      "name": "Airy dream-pop soprano",
+      "voice": "an airy, breathy female soprano sitting inside the mix with long reverb tails, harmonies an octave up",
+      "style": "Dream pop, 90 BPM, an airy, breathy female soprano sitting inside the mix with long reverb tails, harmonies an octave up, shimmering guitars, a steady drum machine pulse, warm bass, swelling pads, hazy and nostalgic",
+      "exclude": "belting, rap, sharp EDM drums"
+    },
+    {
+      "group": "Rap delivery",
+      "name": "Laid-back storyteller flow",
+      "voice": "a relaxed male rapper with a conversational storytelling flow, sitting just behind the beat, clear diction, dry and up front",
+      "style": "Boom bap, 90 BPM, a relaxed male rapper with a conversational storytelling flow, sitting just behind the beat, clear diction, dry and up front, dusty jazz piano sample, upright bass loop, swung drums with a crunchy snare, vinyl crackle, nostalgic",
+      "exclude": "autotune, singing hook, synth pads"
+    },
+    {
+      "group": "Rap delivery",
+      "name": "Sung hook, rapped verses",
+      "voice": "a female voice that raps the verses in a quick, bouncy flow and sings the hook, light pitch correction, ad-libs panned wide",
+      "style": "Melodic rap, 140 BPM in half-time, a female voice that raps the verses in a quick, bouncy flow and sings the hook, light pitch correction, ad-libs panned wide, gliding 808 bass, rolling hi-hats, bright plucked synth melody, playful and confident",
+      "exclude": "live band, slow ballad, choir"
+    },
+    {
+      "group": "More than one voice",
+      "name": "Male and female duet",
+      "voice": "a male and female duet trading verses, his voice low and warm, hers higher and bright, both together on the last chorus",
+      "style": "Soul-pop duet, 84 BPM, a male and female duet trading verses, his voice low and warm, hers higher and bright, both together on the last chorus, piano and Rhodes, warm bass, live drums with a soft backbeat, light strings in the bridge, tender and hopeful",
+      "exclude": "rap, EDM synths, autotune"
+    },
+    {
+      "group": "More than one voice",
+      "name": "Gospel lead with choir",
+      "voice": "a soulful female lead with call-and-response from a full choir, the choir answering every line of the chorus",
+      "style": "Contemporary gospel, 76 BPM, a soulful female lead with call-and-response from a full choir, the choir answering every line of the chorus, Hammond organ, piano, bass and live drums building from soft to full, handclaps in the last chorus, uplifting and joyful",
+      "exclude": "autotune, trap drums, solo-only vocal"
+    }
+  ]
+}
